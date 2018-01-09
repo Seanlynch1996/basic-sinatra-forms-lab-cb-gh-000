@@ -13,6 +13,6 @@ class App < Sinatra::Base
     @sg = params[:sg]
     @pf = params[:pf]
     @c = params[:c]
-    "#{name}"
+    "#{@name}"
   end
 end
